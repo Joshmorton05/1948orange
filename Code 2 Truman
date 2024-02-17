@@ -471,15 +471,6 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
-        "pk": 13575,
-        "fields": {
-            "priority": 26,
-            "description": "The region of Palestine has long been divided between Jewish and Arab settlers. With the withdrawal of British forces from the region it has devolved into a full-scale war between the newly founded state of Israel and their Arab neighbors. With Judaism making up the second most popular religion in America, advisors see this as an opportunity to appeal to this crucial voting bloc.",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
         "pk": 13598,
         "fields": {
             "priority": 27,
@@ -1171,30 +1162,6 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 13530,
             "description": "Truman needs to apologize for the actions he took in collaborating with Pendergast and we will harp on our support for anti-corruption legislative action that will help finally end the political machines that have strangled our country since its founding."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 13576,
-        "fields": {
-            "question": 13575,
-            "description": "The Jewish people have long been oppressed around the world. It is only right that they finally be given their state where they can finally live in peace. I promise to recognize and support this new Jewish state."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 13581,
-        "fields": {
-            "question": 13575,
-            "description": "This is not a major issue this election and whatever I say may offend one group or another."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 13596,
-        "fields": {
-            "question": 13575,
-            "description": "I support the right of the Jewish people to secure for themselves their state, however, I think we should focus on negotiating cooperation between the Jews and Arabs and I would support a two-state solution on the matter as suggested by the UN."
         }
     },
     {
@@ -6525,26 +6492,6 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 13578,
-        "fields": {
-            "answer": 13576,
-            "candidate": 116,
-            "affected_candidate": 116,
-            "global_multiplier": 0.01476
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 13579,
-        "fields": {
-            "answer": 13576,
-            "candidate": 116,
-            "affected_candidate": 119,
-            "global_multiplier": -0.033
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
         "pk": 13601,
         "fields": {
             "answer": 13599,
@@ -6810,7 +6757,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 13505,
             "candidate": 116,
             "affected_candidate": 116,
-            "global_multiplier": 0.0464
+            "global_multiplier": 0.0524
         }
     },
     {
@@ -6961,26 +6908,6 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 116,
             "affected_candidate": 116,
             "global_multiplier": -0.008
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 13863,
-        "fields": {
-            "answer": 13581,
-            "candidate": 116,
-            "affected_candidate": 116,
-            "global_multiplier": 0
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 13864,
-        "fields": {
-            "answer": 13596,
-            "candidate": 116,
-            "affected_candidate": 116,
-            "global_multiplier": 0.0245
         }
     },
     {
@@ -7324,26 +7251,6 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 45,
             "issue_score": -0.5,
             "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 13580,
-        "fields": {
-            "answer": 13576,
-            "issue": 42,
-            "issue_score": 0.45,
-            "issue_importance": 4
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 13583,
-        "fields": {
-            "answer": 13581,
-            "issue": 42,
-            "issue_score": 0,
-            "issue_importance": -3
         }
     },
     {
@@ -8457,17 +8364,6 @@ campaignTrail_temp.answer_score_state_json = [
     },
     {
         "model": "campaign_trail.answer_score_state",
-        "pk": 13595,
-        "fields": {
-            "answer": 13581,
-            "state": 363,
-            "candidate": 116,
-            "affected_candidate": 116,
-            "state_multiplier": -0.025
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
         "pk": 13759,
         "fields": {
             "answer": 3818,
@@ -9025,28 +8921,6 @@ campaignTrail_temp.answer_score_state_json = [
             "candidate": 116,
             "affected_candidate": 116,
             "state_multiplier": 0.004
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 13865,
-        "fields": {
-            "answer": 13576,
-            "state": 363,
-            "candidate": 116,
-            "affected_candidate": 116,
-            "state_multiplier": 0.0965
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 13866,
-        "fields": {
-            "answer": 13596,
-            "state": 363,
-            "candidate": 116,
-            "affected_candidate": 116,
-            "state_multiplier": -0.054
         }
     }
 ]
@@ -9788,33 +9662,6 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 13533,
             "candidate": 116,
             "answer_feedback": "This helps quell the attacks but brings more attention to the issue."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 13577,
-        "fields": {
-            "answer": 13576,
-            "candidate": 116,
-            "answer_feedback": "The mainstream view and one that’s certain to play well with Jewish-Americans."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 13582,
-        "fields": {
-            "answer": 13581,
-            "candidate": 116,
-            "answer_feedback": "It's not like Israel was a major issue in this election."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 13597,
-        "fields": {
-            "answer": 13596,
-            "candidate": 116,
-            "answer_feedback": "A fine response that offends little except for Jewish-Americans."
         }
     },
     {
