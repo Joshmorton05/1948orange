@@ -208,13 +208,29 @@ var soundtracks = {
   0: {
     name: "Dixecrat DJ",
     tracklist: [
+       {
+        "name": "Dixieland - Dinah Shore",
+        "url": "https://cdn.discordapp.com/attachments/447923861875326988/1207533134107643956/i-wish-i-was-in-dixie-1953.mp3?ex=65dffdde&is=65cd88de&hm=c950b92dde1fbe0a692ae64af91d043da38b84d6b83f826e19cd92150006ec8b&"
+      },
       {
         "name": "Yellow rose of Texas - Bing Crosby",
         "url": "https://cdn.discordapp.com/attachments/447923861875326988/1207530799105056869/the-yellow-rose-of-texas.mp3?ex=65dffbb1&is=65cd86b1&hm=027ff1c2631d06da289b15a04a506667f0e89c089b820cdfa4997f12700a9601&"
       },
       {
-        "name": "Dixieland - Dinah Shore",
-        "url": "https://cdn.discordapp.com/attachments/447923861875326988/1207533134107643956/i-wish-i-was-in-dixie-1953.mp3?ex=65dffdde&is=65cd88de&hm=c950b92dde1fbe0a692ae64af91d043da38b84d6b83f826e19cd92150006ec8b&"
+        "name": "This land is your land - Sharon Jones & the Dap-Kings",
+        "url": "https://cdn.discordapp.com/attachments/447923861875326988/1207841542228811796/kings-this-land-is-your-land.mp3?ex=65e11d18&is=65cea818&hm=02d8926d1f037fafb950febc588e6a7ab9797c749747718c1a83666215bcb584&"
+      },
+      {
+        "name": "Here's to the state of Mississpi - Phil Ochs",
+        "url": "https://cdn.discordapp.com/attachments/447923861875326988/1207841337580462200/heres-to-the-state-of-mississippi-for-es-483-widescreen.mp3?ex=65e11ce7&is=65cea7e7&hm=eabffca217516eff7ace427fd0f4e190352bb9318d107aef30e540702c7c34b3&"
+      },
+      {
+        "name": "Tennessee Waltz - Patti Page",
+        "url": "https://cdn.discordapp.com/attachments/826948571181219883/1092286617219256420/Patti_Page_-_Tennessee_Waltz_Original_Classic_with_Lyrics.mp3"
+      },
+      {
+        "name": "Hank Williams - Mansion On The Hill",
+        "url": "https://cdn.discordapp.com/attachments/826948571181219883/1092286822178115624/Hank_Williams_-_Mansion_On_The_Hill_ORIGINAL_-_1947..mp3"
       },
       {
         "name": "Boogie Woogie Bugel Boy - Andrews sisters",
@@ -227,7 +243,6 @@ var soundtracks = {
 // Set up new music player
 
 newMusicPlayer()
-
 campaignTrail_temp.questions_json = [
     {
         "model": "campaign_trail.question",
@@ -4672,7 +4687,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 116,
             "state": 337,
-            "state_multiplier": 0.8549
+            "state_multiplier": 0.7149
         }
     },
     {
@@ -4825,7 +4840,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 116,
             "state": 354,
-            "state_multiplier": 0.8505
+            "state_multiplier": 0.5905
         }
     },
     {
@@ -4969,7 +4984,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 116,
             "state": 370,
-            "state_multiplier": 1.0602
+            "state_multiplier": 0.7654
         }
     },
     {
@@ -6675,7 +6690,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3818,
             "candidate": 116,
             "affected_candidate": 116,
-            "global_multiplier": -0.16
+            "global_multiplier": -0.19
         }
     },
     {
@@ -6795,7 +6810,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 13505,
             "candidate": 116,
             "affected_candidate": 116,
-            "global_multiplier": 0.0584
+            "global_multiplier": 0.0464
         }
     },
     {
@@ -7045,7 +7060,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 13657,
             "candidate": 116,
             "affected_candidate": 116,
-            "global_multiplier": 0.0156
+            "global_multiplier": 0.0126
         }
     },
     {
@@ -7055,7 +7070,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 13658,
             "candidate": 116,
             "affected_candidate": 116,
-            "global_multiplier": 0.01345
+            "global_multiplier": 0.00945
         }
     },
     {
@@ -8470,7 +8485,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 335,
             "candidate": 116,
             "affected_candidate": 116,
-            "state_multiplier": 0.4035
+            "state_multiplier": 0.3035
         }
     },
     {
@@ -8492,7 +8507,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 337,
             "candidate": 116,
             "affected_candidate": 119,
-            "state_multiplier": 0.682
+            "state_multiplier": 0.792
         }
     },
     {
@@ -8833,7 +8848,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 370,
             "candidate": 116,
             "affected_candidate": 119,
-            "state_multiplier": 0.854
+            "state_multiplier": 0.984
         }
     },
     {
@@ -9970,7 +9985,7 @@ campaignTrail_temp.jet_data = [{
             "operator": ">",
             "value": 0,
             "endingImage": "https://www.libs.uga.edu/sites/default/files/inline-images/RussellBio_020.jpg",
-            "endingText": "As the results come in it’s clear that you have won. You receive a visit in your office from Strom, who brings his finest wine with him, “We did it, you old bastard, we really did it!” he remarks as he comes in. You both have a lengthy discussion about what a Southern administration, the first one in nearly three decades, will look like. As you talk you get a call from Wallace, as you pick up the phone you can hear under all the niceties a broken man who has lost faith in the country and himself. You also receive a call from Stassen which is much more quick. As you sit back and the true ramifications of this event set in, you can’t explain the emotions you are feeling, both a feeling of glory and dread.\n\n<br><br> You inherit a Democratic congress, the public truly fed up with Republican obstructionism.  You now have the chance to fix many of the foreign policy disasters undergone by Wallace and reaffirm American strength to all our foes and allies. Economically plans are already being drawn up for a new round of New Deal legislation, with a more conservative tone than those proposed by Wallace, and you can finally secure the legacy of FDR, and perhaps even make a legacy of your own. You must also carefully deal with the China crisis which could threaten to consume your administration. Across the south celebrations break out for one of their own has reclaimed the White House, but for the millions of minorities and blacks across the nation, they fear for what a truly Southern administration will look like.\n\n\n\n",
+            "endingText": "As the results come in it’s clear that you have won. You receive a visit in your office from Strom, who brings his finest wine with him, “We did it, you old bastard, we really did it!” he remarks as he comes in. You both have a lengthy discussion about what a Southern administration, the first one in nearly three decades, will look like. As you talk you get a call from Wallace, as you pick up the phone you can hear under all the niceties a broken man who has lost faith in the country and himself. You also receive a call from Stassen which is much more quick. As you sit back and the true ramifications of this event set in, you can’t explain the emotions you are feeling, both a feeling of glory and dread.\n\n<br><br> You inherit a Democratic congress, the public truly fed up with Republican obstructionism. You now have the chance to fix many of the foreign policy disasters undergone by Wallace and reaffirm American strength to all our foes and allies. Economically plans are already being drawn up for a new round of New Deal legislation, with a more conservative tone than those proposed by Wallace, and you can finally secure the legacy of FDR, and perhaps even make a legacy of your own. You must also carefully deal with the China crisis which could threaten to consume your administration. Across the south celebrations break out for one of their own has reclaimed the White House, but for the millions of minorities and blacks across the nation, they fear for what a truly Southern administration will look like.\n\n\n\n",
             "amount": "269"
         },
         "1707966202078": {
