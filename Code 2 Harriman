@@ -225,14 +225,6 @@ var soundtracks = {
         "url": "https://cdn.discordapp.com/attachments/447923861875326988/1207841337580462200/heres-to-the-state-of-mississippi-for-es-483-widescreen.mp3?ex=65e11ce7&is=65cea7e7&hm=eabffca217516eff7ace427fd0f4e190352bb9318d107aef30e540702c7c34b3&"
       },
       {
-        "name": "Tennessee Waltz - Patti Page",
-        "url": "https://cdn.discordapp.com/attachments/826948571181219883/1092286617219256420/Patti_Page_-_Tennessee_Waltz_Original_Classic_with_Lyrics.mp3"
-      },
-      {
-        "name": "Hank Williams - Mansion On The Hill",
-        "url": "https://cdn.discordapp.com/attachments/826948571181219883/1092286822178115624/Hank_Williams_-_Mansion_On_The_Hill_ORIGINAL_-_1947..mp3"
-      },
-      {
         "name": "Boogie Woogie Bugel Boy - Andrews sisters",
         "url": "https://cdn.discordapp.com/attachments/447923861875326988/1207533473385152553/the-andrews-sisters-lyrics-in-description.mp3?ex=65dffe2e&is=65cd892e&hm=36d360ffe622e31ec350176183fe48db88e02cb335f836a082abcef5726d8156&"
       }
@@ -457,15 +449,6 @@ campaignTrail_temp.questions_json = [
         "fields": {
             "priority": 24,
             "description": "Many advisors suggest we attempt to attack one of the other candidates in the race. Of course, with you having two opponents the issue of which candidate to focus on is crucial for our overall strategy this campaign.",
-            "likelihood": 1
-        }
-    },
-    {
-        "model": "campaign_trail.question",
-        "pk": 13530,
-        "fields": {
-            "priority": 25,
-            "description": "For his whole congressional career, Truman has had to deal with the constant accusations of his connection to the Pendergast Democratic machine. Despite Pendergast’s imprisonment in 1939, Truman’s connection dampened his appeal among the largely anti-corruption public and allowed our opponents an easy attack. How should we finally put this issue to bed?",
             "likelihood": 1
         }
     },
@@ -1139,30 +1122,6 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 13523,
             "description": "Despite Wallace’s annoyance he is too unpopular to be an actual threat. We must focus on countering Stassen by attacking him and the Republican party as a whole for planning to destroy FDR’s legacy."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 13531,
-        "fields": {
-            "question": 13530,
-            "description": "The Pendergast issue has been dead for years now, any reassessment of the issue will simply lead to the issue resurfacing. We shall ignore any attempts to attack us for the connection and focus on campaigning."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 13532,
-        "fields": {
-            "question": 13530,
-            "description": "Truman’s the one who has dealt with these issues for nearly a decade, he will know what the best plan of action should be for combatting these claims that he’s had to counter countless times before."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
-        "pk": 13533,
-        "fields": {
-            "question": 13530,
-            "description": "Truman needs to apologize for the actions he took in collaborating with Pendergast and we will harp on our support for anti-corruption legislative action that will help finally end the political machines that have strangled our country since its founding."
         }
     },
     {
@@ -4742,7 +4701,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 116,
             "state": 344,
-            "state_multiplier": 0.89
+            "state_multiplier": 0.878
         }
     },
     {
@@ -4823,7 +4782,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 116,
             "state": 353,
-            "state_multiplier": 0.8607
+            "state_multiplier": 0.8277
         }
     },
     {
@@ -4913,7 +4872,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 116,
             "state": 363,
-            "state_multiplier": 0.7608
+            "state_multiplier": 0.7005
         }
     },
     {
@@ -5066,7 +5025,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 116,
             "state": 380,
-            "state_multiplier": 0.8304
+            "state_multiplier": 0.8214
         }
     },
     {
@@ -5982,7 +5941,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3806,
             "candidate": 116,
             "affected_candidate": 116,
-            "global_multiplier": 0.09
+            "global_multiplier": 0.078
         }
     },
     {
@@ -6042,7 +6001,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3833,
             "candidate": 116,
             "affected_candidate": 116,
-            "global_multiplier": 0.01711
+            "global_multiplier": 0.01591
         }
     },
     {
@@ -6122,7 +6081,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 3846,
             "candidate": 116,
             "affected_candidate": 116,
-            "global_multiplier": 0.021
+            "global_multiplier": 0.02
         }
     },
     {
@@ -6892,7 +6851,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 13525,
             "candidate": 116,
             "affected_candidate": 116,
-            "global_multiplier": 0.0565
+            "global_multiplier": 0.0465
         }
     },
     {
@@ -6902,37 +6861,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 13526,
             "candidate": 116,
             "affected_candidate": 117,
-            "global_multiplier": -0.0465
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 13860,
-        "fields": {
-            "answer": 13531,
-            "candidate": 116,
-            "affected_candidate": 116,
-            "global_multiplier": -0.0025
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 13861,
-        "fields": {
-            "answer": 13532,
-            "candidate": 116,
-            "affected_candidate": 116,
-            "global_multiplier": -0.003
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 13862,
-        "fields": {
-            "answer": 13533,
-            "candidate": 116,
-            "affected_candidate": 116,
-            "global_multiplier": -0.008
+            "global_multiplier": -0.0485
         }
     },
     {
@@ -7693,7 +7622,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 13895,
         "fields": {
             "answer": 3902,
-            "issue": "42",
+            "issue": 42,
             "issue_score": 0.6,
             "issue_importance": 2
         }
@@ -9772,33 +9701,6 @@ campaignTrail_temp.answer_feedback_json = [
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 13534,
-        "fields": {
-            "answer": 13531,
-            "candidate": 116,
-            "answer_feedback": "The Pendergast issue is not nearly as prevalent as it was at the beginning of his career but it is still a tarnish on his respected career."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 13535,
-        "fields": {
-            "answer": 13532,
-            "candidate": 116,
-            "answer_feedback": "Truman has learned how to deal with these claims and issued a statement the next day largely putting the issue to rest."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 13536,
-        "fields": {
-            "answer": 13533,
-            "candidate": 116,
-            "answer_feedback": "This helps quell the attacks but brings more attention to the issue."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
         "pk": 13577,
         "fields": {
             "answer": 13576,
@@ -10017,5 +9919,4 @@ campaignTrail_temp.jet_data = [{
     "cyoa_data": {}
 }
 ]
-
 
