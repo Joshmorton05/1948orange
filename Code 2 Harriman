@@ -921,7 +921,7 @@ campaignTrail_temp.answers_json = [
         "pk": 3933,
         "fields": {
             "question": 532,
-            "description": "I deplore any use of violence at the cost of human life. I will denounce the use of violence in this case and write a letter expressing my sympathy to the victim’s families."
+            "description": "I deplore any use of violence at the cost of human life. I will denounce the use of violence in this case and write a letter expressing my sympathy to the victim’s families. Although I will still refuse to support a lynching bill."
         }
     },
     {
@@ -4701,7 +4701,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 116,
             "state": 344,
-            "state_multiplier": 0.878
+            "state_multiplier": 0.708
         }
     },
     {
@@ -4872,7 +4872,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 116,
             "state": 363,
-            "state_multiplier": 0.7005
+            "state_multiplier": 0.6205
         }
     },
     {
@@ -4899,7 +4899,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 116,
             "state": 366,
-            "state_multiplier": 0.8578
+            "state_multiplier": 0.7978
         }
     },
     {
@@ -5922,16 +5922,6 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 116,
             "affected_candidate": 116,
             "global_multiplier": -0.0025
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 1620,
-        "fields": {
-            "answer": 3805,
-            "candidate": 116,
-            "affected_candidate": 117,
-            "global_multiplier": -0.01
         }
     },
     {
@@ -7019,16 +7009,6 @@ campaignTrail_temp.answer_score_issue_json = [
     },
     {
         "model": "campaign_trail.answer_score_issue",
-        "pk": 1376,
-        "fields": {
-            "answer": 3811,
-            "issue": 43,
-            "issue_score": 0.2,
-            "issue_importance": 12
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
         "pk": 1380,
         "fields": {
             "answer": 3805,
@@ -7650,17 +7630,6 @@ campaignTrail_temp.answer_score_state_json = [
             "candidate": 116,
             "affected_candidate": 119,
             "state_multiplier": 0.04
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 13355,
-        "fields": {
-            "answer": 3806,
-            "state": 363,
-            "candidate": 116,
-            "affected_candidate": 119,
-            "state_multiplier": 0.02
         }
     },
     {
@@ -9372,7 +9341,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3933,
             "candidate": 116,
-            "answer_feedback": "This gains you a long berating from Strom and many other Dixiecrats line up to give you a piece of their minds."
+            "answer_feedback": "This gains you a long berating from Strom and many other Dixiecrats line up to give you a piece of their minds but it's highly unlikely they'll do anything but shout, they know you're their man."
         }
     },
     {
@@ -9498,7 +9467,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 3934,
             "candidate": 116,
-            "answer_feedback": "This is the expected answer of a Dixiecrat."
+            "answer_feedback": "Most Americans sympathize with the victims but this is a minor issue and many already know these views of yours."
         }
     },
     {
@@ -9624,7 +9593,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 13510,
             "candidate": 116,
-            "answer_feedback": "This was always going to be a difficult question but this is likely the best answer."
+            "answer_feedback": "This was always going to be a difficult question but this is likely the best answer. Southerners may angrily protest, but, c'mon are they seriously gonna vote for Stassen or Wallace over you?"
         }
     },
     {
