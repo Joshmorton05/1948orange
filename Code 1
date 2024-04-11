@@ -18,7 +18,7 @@ nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#444171";
 
             $(".container")[0].style.backgroundColor = "#7469ab";
 
-            document.getElementById("header").src = "https://media.discordapp.net/attachments/1149804892538552370/1204916216981094451/red.png?ex=65d678ac&is=65c403ac&hm=2fd7e5d5c351f61e2f6e765e38d95532ce1126ef9f51c61d78325ee404f5d730&=&format=webp&quality=lossless";
+            document.getElementById("header").src = "https://imgur.com/a/Sdw30Ug";
 
             document.body.background = "https://www.nydailynews.com/wp-content/uploads/migration/2022/08/28/65QLFBQLFVCWVFFMQ2CHN7AF7I.jpg";
 
