@@ -18,7 +18,7 @@ nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#444171";
 
             $(".container")[0].style.backgroundColor = "#7469ab";
 
-            document.getElementById("header").src = "https://imgur.com/a/Sdw30Ug";
+            document.getElementById("header").src = "https://imgur.com/a/Sdw30Ug.png";
 
             document.body.background = "https://www.nydailynews.com/wp-content/uploads/migration/2022/08/28/65QLFBQLFVCWVFFMQ2CHN7AF7I.jpg";
 
